@@ -47,10 +47,10 @@
                 
                 // Content
                 $mail->isHTML(true);
-                $mail->Subject = 'Reminder: Upcoming Brain Training Session';
+                $mail->Subject = 'Reminder: Payment for Brain Training';
                 $mail->Body    = "<p>Dear $parent_name,</p>
-                                <p>This is a reminder that your child's ($child_name) brain training session is scheduled for today.</p>
-                                <p>Thank you!</p>";
+                                <p>This is a reminder that your child's ($child_name) brain training fee is due for the month.</p>
+                                <p>Do kindly make the payment. Thanks you!</p>";
                                 
                 $mail->send();
                 echo 'Reminder email sent to ' . $parent_email;
