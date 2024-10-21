@@ -1,2 +1,2 @@
 @echo off
-php C:\xampp\htdocs\PBTwebsite2\send_reminder.php
+php C:\xampp\htdocs\PBTwebsite\send_reminder.php

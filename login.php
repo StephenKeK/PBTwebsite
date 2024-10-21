@@ -14,7 +14,7 @@
             echo '<p class="error-message">Invalid email or password. Please try again.</p>';
         }
         ?>
-        <form method="POST" action="process_admin_login.php" class="login-form">
+        <form method="POST" action="process_login.php" class="login-form">
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="admin_email" required>
