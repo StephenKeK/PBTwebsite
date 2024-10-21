@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['parent_id'])) {
 
 <div class="dashboard-container">
     <h1>Admin Dashboard</h1>
-    <p>Welcome, Admin!</p>
+    <p>Welcome, Admin!!!</p>
 
     <?php if (isset($success_message)): ?>
         <div class="success-message"><?= $success_message ?></div>

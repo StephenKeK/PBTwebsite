@@ -1,4 +1,4 @@
-    <?php
+<?php
     include 'db_connection.php'; // Include the database connection
     require 'vendor/autoload.php'; // Load PHPMailer
 
@@ -36,13 +36,13 @@
                 $mail->isSMTP();
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'stephooi2000@gmail.com'; // Your Gmail address
-                $mail->Password = 'legimlmvdbqlrpyy'; // Your app password for Gmail
+                $mail->Username = 'junshenyeoh@gmail.com'; // Your Gmail address
+                $mail->Password = 'ulvf kfxi mniy horm'; // Your app password for Gmail
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = 587;
                 
                 // Recipients
-                $mail->setFrom('stephooi2000@gmail.com', 'Brain Training Admin');
+                $mail->setFrom('junshenyeoh@gmail.com', 'Brain Training Admin');
                 $mail->addAddress($parent_email, $parent_name);
                 
                 // Content

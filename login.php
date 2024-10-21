@@ -14,14 +14,14 @@
             echo '<p class="error-message">Invalid email or password. Please try again.</p>';
         }
         ?>
-        <form method="POST" action="process_admin_login.php" class="login-form">
+        <form method="POST" action="process_login.php" class="login-form">
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="admin_email" required>
+                <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="admin_password" required>
+                <input type="password" id="password" name="password" required>
             </div>
             <div class="form-group">
                 <input type="submit" value="Log In" class="login-btn">
