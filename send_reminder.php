@@ -36,13 +36,13 @@
                 $mail->isSMTP();
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'junshenyeoh@gmail.com'; // Your Gmail address
-                $mail->Password = 'ulvf kfxi mniy horm'; // Your app password for Gmail
+                $mail->Username = 'stephooi2000@gmail.com'; // Your Gmail address
+                $mail->Password = 'yerw bczk csna ilir'; // Your app password for Gmail
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = 587;
                 
                 // Recipients
-                $mail->setFrom('junshenyeoh@gmail.com', 'Brain Training Admin');
+                $mail->setFrom('stephooi2000@gmail.com', 'Brain Training Admin');
                 $mail->addAddress($parent_email, $parent_name);
                 
                 // Content
